@@ -79,9 +79,9 @@ Works with any AI coding tool that takes a prompt, such as Claude Code, Codex, G
 ## Develop
 
 ```bash
-npm install
-npm run dev        # http://localhost:3000
-npm run build      # static export to ./out
+pnpm install
+pnpm dev           # http://localhost:3000
+pnpm build         # static export to ./out
 ```
 
 The app is a static Next.js export. To host it under a sub-path (for example a GitHub Pages project site), set `NEXT_PUBLIC_BASE_PATH=/your-repo` at build time. `.github/workflows/deploy.yml` does this automatically and publishes `out/` to GitHub Pages on every push to `main`.
@@ -148,9 +148,9 @@ Claude Code、Codex、Gemini CLI、Cursor など、プロンプトを受け取�
 ### 開発
 
 ```bash
-npm install
-npm run dev        # http://localhost:3000
-npm run build      # ./out に静的書き出し
+pnpm install
+pnpm dev           # http://localhost:3000
+pnpm build         # ./out に静的書き出し
 ```
 
 静的サイトとして書き出す構成です。サブパス（GitHub Pages のプロジェクトサイトなど）で配信するときはビルド時に `NEXT_PUBLIC_BASE_PATH=/リポジトリ名` を指定してください。`.github/workflows/deploy.yml` が `main` への push ごとにこれを行い、GitHub Pages に公開します。
@@ -207,9 +207,9 @@ MIT © lnkiai
 ### 开发
 
 ```bash
-npm install
-npm run dev        # http://localhost:3000
-npm run build      # 静态导出到 ./out
+pnpm install
+pnpm dev           # http://localhost:3000
+pnpm build         # 静态导出到 ./out
 ```
 
 项目以静态站点方式导出。若要部署在子路径下（例如 GitHub Pages 的项目站点），请在构建时设置 `NEXT_PUBLIC_BASE_PATH=/仓库名`。`.github/workflows/deploy.yml` 会在每次推送到 `main` 时自动完成这一步并发布到 GitHub Pages。
@@ -266,9 +266,9 @@ Claude Code, Codex, Gemini CLI, Cursor 등 프롬프트를 받을 수 있는 AI 
 ### 개발
 
 ```bash
-npm install
-npm run dev        # http://localhost:3000
-npm run build      # ./out 에 정적 내보내기
+pnpm install
+pnpm dev           # http://localhost:3000
+pnpm build         # ./out 에 정적 내보내기
 ```
 
 정적 사이트로 내보내는 구성입니다. 하위 경로(GitHub Pages 프로젝트 사이트 등)에서 제공하려면 빌드 시 `NEXT_PUBLIC_BASE_PATH=/저장소이름`을 지정하세요. `.github/workflows/deploy.yml`이 `main`에 push할 때마다 이를 수행해 GitHub Pages에 공개합니다.
