@@ -6,9 +6,9 @@
 
 ## How I checked it
 
-- [ ] `npm run typecheck` passes
-- [ ] `npm test` passes
-- [ ] `npm run build` passes
+- [ ] `pnpm typecheck` passes
+- [ ] `pnpm test` passes
+- [ ] `pnpm build` passes
 - [ ] New or changed UI strings and prompt text exist in Japanese, English, Chinese and Korean
 - [ ] Tried it in the editor (and on a phone, if the change touches the phone editor)
 
